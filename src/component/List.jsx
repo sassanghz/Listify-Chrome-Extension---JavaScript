@@ -1,5 +1,6 @@
 import React from 'react'
 import todo_icon from '../assets/todo_icon.png'
+import TodoItems from './TodoItems'
 const List = () => {
   return (
     <div className='bg-white place-self-center w-11/12 max-w-md flex flex-col p-7 min-h-[550px] rounded-xl'>
@@ -22,7 +23,7 @@ const List = () => {
 {/*--------To-do List--------*/}
 
     <div>
-
+        <TodoItems/>
     </div>
 
 
